@@ -1,0 +1,57 @@
+.wrapper_all {
+    margin: 200px;
+}
+
+.wrapper {
+    margin: auto;
+    height: 250px;
+    width: 200px;
+    border: solid green 5px;
+    border-radius: 5px;
+    background: aquamarine;
+}
+
+.wrapper_count {
+    border: solid beige 3px;
+    margin: 10px;
+    height: 150px;
+    text-align: center;
+    background: aqua;
+    border-radius: 5px;
+}
+
+.wrapper_button {
+    display: flex;
+    justify-content: center;
+    border: solid green 3px;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    background: aqua;
+}
+
+.counter_full {
+    color: red;
+}
+
+.counter_null {
+    color: darkgreen;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    margin: 14px;
+    font-size: 80px;
+    font-weight: bold
+}
+
+.but1 {
+    margin: auto;
+    color: green;
+}
+
+.but2 {
+    margin: auto;
+    color: green;
+}
