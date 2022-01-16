@@ -1,6 +1,7 @@
 import React from 'react';
 import st from './Counter.module.css'
 import Button from './components/Button';
+import {NavLink} from 'react-router-dom';
 
 export type propsType = {
     counter: number
@@ -19,9 +20,7 @@ const Counter = (props: propsType) => {
                 <div className={st.wrapper_button}>
                     <Button name={'inc'} callBack={props.onIncHandler} className={st.but1} disabled={props.counter === 5}/>
                     <Button name={'reset'} callBack={props.onResetHandler} className={st.but2} disabled={props.counter === 0}/>
-                    {/*<button className={st.but1} disabled={props.counter === 5} onClick={props.onIncHandler}>inc</button>
-                    <button className={st.but2} disabled={props.counter === 0} onClick={props.onResetHandler}>reset
-                    </button>*/}
+                    <NavLink to={'/setCounter'}><Button name={'set'} className={st.but2}/></NavLink>
                 </div>
             </div>
         </div>
